@@ -7,16 +7,16 @@ Project is based on [homebridge-weather](https://github.com/werthdavid/homebridg
 
 Currently **Airly** is supporting only Polish localizations.
 
-## Instalation
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-1. Install this plugin using: `(sudo) npm install -g homebridge-airly`.
-1. Get **API Key** from Airly. Login here <https://developer.airly.eu/login> and generate it.
+## 安装
+1. 安装 Homebridge 使用: `(sudo) npm install -g --unsafe-perm homebridge`.
+1. 安装 这个 插件 使用: `(sudo) npm install -g homebridge-airly`.
+1. 获取 **API Key** from Airly. 登陆 <https://developer.airly.eu/login> 生成.
 1. Find out your coordinates (latitude and longitude). Based on that information Airly will show measurements from nearest sensor. You can use this page <https://www.latlong.net/>.
-1. Update your configuration file like the example below.
+1. 更新你的配置文件
 
 This plugin is returning data such as: AQI (Air Quality Index), PM2.5, PM10.
 
-## Configuration
+## 配置
 Example config.json
 
 ```json
@@ -31,10 +31,14 @@ Example config.json
 ]
 ```
 
-## Config file
-Fields:
+## 配置文件
+字段:
 - `accessory` must be "Air" (required).
 - `apikey` API key from Airly Developers (required).
 - `latitude` String with your latitude e.g. `"52.229676"` (required).
 - `longitude` String with your longitude e.g. `"21.012229"` (required).
 - `name` Is the name of accessory (required).
+
+
+## 卸载
+> npm install -g homebridge-airly
