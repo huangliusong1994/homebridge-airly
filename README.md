@@ -1,7 +1,7 @@
 # Homebridge-airly
 [![NPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)
 
-**Homebridge plugin that is showing information about air quality from Airly API.**
+**Homebridge插件显示空气质量信息的API。**
 
 Project is based on [homebridge-weather](https://github.com/werthdavid/homebridge-weather) and [homebridge-arinow](https://github.com/ToddGreenfield/homebridge-airnow).
 
@@ -11,10 +11,10 @@ Currently **Airly** is supporting only Polish localizations.
 1. 安装 Homebridge 使用: `(sudo) npm install -g --unsafe-perm homebridge`.
 1. 安装 这个 插件 使用: `(sudo) npm install -g homebridge-airly`.
 1. 获取 **API Key** from Airly. 登陆 <https://developer.airly.eu/login> 生成.
-1. Find out your coordinates (latitude and longitude). Based on that information Airly will show measurements from nearest sensor. You can use this page <https://www.latlong.net/>.
+1. 找出你的坐标(经度和纬度)。根据这些信息比较将显示从最近的传感器测量。您可以使用此页面 <https://www.latlong.net/>.
 1. 更新你的配置文件
 
-This plugin is returning data such as: AQI (Air Quality Index), PM2.5, PM10.
+这个插件是返回数据: AQI (Air Quality Index), PM2.5, PM10.
 
 ## 配置
 Example config.json
